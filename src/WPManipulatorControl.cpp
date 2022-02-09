@@ -29,6 +29,7 @@ int main(int argc, char **argv)
 
     std::string end_effector_link;
     private_node_handle_.param("end_effector_link", end_effector_link, std::string("panda_link8"));
+    // private_node_handle_.param("end_effector_link", end_effector_link, std::string("panda_EE"));
     // private_node_handle_.param("end_effector_link", end_effector_link, std::string("panda_K"));
 
 
